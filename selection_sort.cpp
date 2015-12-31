@@ -1,5 +1,4 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 void selection_sort(int A[],int n){
 	int min,min_index,i,j; 
 	for(i=0;i<n;i++){
@@ -14,5 +13,6 @@ void selection_sort(int A[],int n){
 		A[i]=min;
 	}
 }
-void main(){
+int main(){
+	return 0;
 }

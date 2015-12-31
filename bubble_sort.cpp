@@ -1,5 +1,4 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 void bubble_sort(int A[],int n){
 	for(i=0;i<length;i++){
 		int flag =0;
@@ -14,6 +13,7 @@ void bubble_sort(int A[],int n){
 			break;
 	}
 }
-void main(){
+int main(){
+	return 0;
 }	
 

@@ -1,5 +1,4 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
 void Insertion_sort(int A[],int n){
 	int i;
 	for(i=0;i<n;i++){
@@ -12,6 +11,6 @@ void Insertion_sort(int A[],int n){
 		A[current_index]=current;
 	}
 }
-void main(){
-
+int main(){
+	return 0;
 }
