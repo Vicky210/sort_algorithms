@@ -1,5 +1,5 @@
 #include<iostream>
-void bubble_sort(int A[],int n){
+void bubble_sort(int A[],int length){
 	for(i=0;i<length;i++){
 		int flag =0;
 		for(j=0;j<(length-i);j++)
